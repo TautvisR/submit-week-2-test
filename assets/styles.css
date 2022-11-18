@@ -1,0 +1,110 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1200px;
+}
+.flex{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.client img{
+    background-color: yellow;
+    border-radius: 10px;
+    max-width: 90%;
+}
+.mesaging img{
+    background-color: aqua;
+    border-radius: 10px;
+    max-width: 90%;
+}
+.sales img{
+    background-color: aquamarine;
+    border-radius: 10px;
+    max-width: 90%;
+}
+.campaign img{
+    background-color: tomato;
+    border-radius: 10px;
+    max-width: 90%;
+}
+.flex a{
+    text-decoration: none;
+    color: red;
+}
+.client{
+    display: flex;
+    flex-basis: 250px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.mesaging{
+    display: flex;
+    flex-basis: 250px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.sales{
+    display: flex;
+    flex-basis: 250px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.campaign{
+    display: flex;
+    flex-basis: 250px;
+    flex-direction: column;
+    row-gap: 15px;
+}.flex p{
+    text-align: center;
+}
+.stick1{
+    position: relative;
+    padding: 5px 13px;
+    background-color: aliceblue;
+    border: 3px solid;
+    border-radius: 50px;
+    border-color: yellow;
+    color: red;
+    top: 10%;
+    right: 45%;
+}
+.stick2{
+    position: relative;
+    padding: 5px 13px;
+    background-color: aliceblue;
+    border: 3px solid;
+    border-radius: 50px;
+    border-color: aqua;
+    color: black;
+    top: 10%;
+    right: 45%;
+}
+.stick3{
+    position: relative;
+    padding: 5px 13px;
+    background-color: aliceblue;
+    border: 3px solid;
+    border-radius: 50px;
+    border-color: aquamarine;
+    color: blueviolet;
+    top: 10%;
+    right: 45%;
+}
+.stick4{
+    position: relative;
+    padding: 7px 13px;
+    background-color: aliceblue;
+    border: 3px solid;
+    border-radius: 50px;
+    border-color: tomato;
+    color: yellowgreen;
+    top: 10%;
+    right: 45%;
+}
